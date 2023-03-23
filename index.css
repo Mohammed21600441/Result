@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+}
+body {
+  color: white;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+.conatiner {
+  position: fixed;
+  left: 30em;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.details {
+  background-color: rgb(96, 63, 252);
+  height: 500px;
+  width: 400px;
+  padding: 10px 20px;
+  text-align: center;
+  padding-top: 5em;
+  border-radius: 50px;
+}
+h1 {
+  position: relative;
+  bottom: 2em;
+  color: #927ee9;
+}
+
+.cir {
+  background-color: rgb(74, 36, 204);
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  font-size: 30px;
+  margin-left: 3.5em;
+  padding: 30px;
+}
+#num {
+}
+h2 {
+  position: relative;
+  top: 20px;
+  font-size: 30px;
+  color: #d1cffc;
+}
+p {
+  position: relative;
+  top: 2em;
+  font-weight: 50;
+}
+.conatiner2{
+    position: fixed;
+    left: 55em;
+    height: 500px;
+    margin-top: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 400px;
+    border-radius: 50px;
+    
+    
+}
+.conatiner2 h1{
+    right: 0px;
+    position: relative;
+    bottom: 7em; 
+    color: black;
+    margin-top: 15px;
+}
+.item1{
+    color: red;
+    position: absolute;
+    top: 5em;
+    left:0px;
+    background-color: #E6B0B9;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 30px;
+    font-weight: 600;
+
+}
+.item1 span{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#number1{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: -10px;   
+    color: black;
+
+}
+.item2{
+    color: black;
+    position: absolute;
+    top: 9em;
+    left:30px;
+    background-color: rgb(253,253,241);
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px auto;
+    
+}
+.item3{
+    color: black;
+    position: absolute;
+    top: 13em;
+    left:30px;
+    background-color: rgb(126,191,175);    
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px auto;
+    
+}
+.item4{
+    color: black;
+    position: absolute;
+    top: 17em;
+    left:30px;
+    background-color: rgb(134,143,170);
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px auto;
+    
+}
+button{
+    position: inherit;
+    bottom: 25em;
+    width: 14%;
+    height: 40px;
+    border: none;
+
+}
+.item2 span{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    padding-left: 5px;
+    
+}
+#number2{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: -10px;   
+color: rgb(240,223,166);
+
+}
+
+.item3 span{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#number3{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: -10px;   
+    color: black;
+
+}
+.item4 span{
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#number4{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+    top: -10px;   
+    color: black;
+
+}
+button{
+    background-color: #303B5A;
+    color: snow;
+    font-weight: 900;
+    border-radius: 20px;
+    position: relative;
+    top: 10em;
+    width: 50%;
+    right: 50px;
+}
+button:hover{
+    color: black;
+    cursor: pointer;
+}
+@media(max-width:400px){
+
+    .conatiner{
+        position: relative;
+        left: 2em;
+        top: -10em;
+        width: 80%;
+}
+.cir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3em;
+}
+.conatiner2{
+    position: relative;
+    left: 2em;
+    bottom: 30em;
+    bottom: 40em;
+    width: 80%;
+
+
+}
